@@ -1,0 +1,15 @@
+public class Main{
+
+    public static void main(String[] args) {
+
+        int row;
+        int maks_row = 6;
+        int pagar;
+        for(row=1; row< maks_row; row++) {
+            for(pagar=1; pagar<=row; pagar++) {
+                System.out.print("#");
+            }
+            System.out.println();
+        }
+    }
+}
